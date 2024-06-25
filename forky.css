@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(95, 177, 255);
+}
+.forky{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.face{
+    width: 300px;
+    height: 300px;
+    background-color: #f0f0f0;
+    position: absolute;
+    border-radius: 65% 30% 65% 28%;
+    top: -135px;
+    left: -147px;
+    transform: rotate(-45deg);
+}
+.face-mask{
+    width: 300px;
+    height: 60px;
+    background-color: rgb(95, 177, 255);
+    position: absolute;
+    top: -160px;
+    left: -147px;
+}
+.fork1, .fork4{
+    width: 193px;
+    height: 189px;
+    background-color: #f0f0f0;
+    position: absolute;
+    border-radius: 100% 0% 97% 3% / 91% 0% 99% 3% ;
+    top: -121px;
+    left: -159px;
+    transform: rotate(-45deg);
+}
+.fork2, .fork3{
+    width: 122px;
+    height: 77px;
+    background-color: #f0f0f0;
+    position: absolute;
+    border-radius: 100% 0% 86% 14% / 98% 0% 100% 2% ;
+    top: -141px;
+    left: -88px;
+    transform: rotate(128deg);
+}
+.fork3{
+    left: -34px;
+    transform: rotate(50deg) rotateY(180deg);
+}
+.fork4{
+    left: -37px;
+    transform: rotate(45deg) rotateY(180deg);
+}
+.eye1{
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: -51px;
+    left: -99px;
+    box-shadow: 1px 1px 3px #888787;
+}
+.pupil1{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 30px;
+    left: 5px;
+    box-shadow: 1px 1px 3px #888787;
+}
+.eye2{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: -20px;
+    left: 20px;
+    box-shadow: 1px 1px 3px #888787;
+}
+.pupil2{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    top: 27px;
+    left: 10px;
+}
+.mouth1{
+    width: 120px;
+    height: 81px;
+    border: 15px solid #71acc8;
+    position: absolute;
+    border-radius: 42% 70% 44% / 32% 26% 80% 73%;
+    top: 46px;
+    left: -60px;
+    clip-path: polygon(0 33%, 100% 11%, 99% 100%, 0% 100%);
+}
+.mouth2{
+    width: 144px;
+    height: 81px;
+    border: 15px solid #71acc8;
+    position: absolute;
+    border-radius: 42% 70% 44% / 32% 26% 80% 73%;
+    top: -6px;
+    left: -78px;
+    clip-path: polygon(0 83%, 100% 56%, 99% 100%, 0% 100%);
+}
+.brow{
+    width: 150px;
+    height: 51px;
+    border: 25px solid red;
+    position: absolute;
+    border-radius: 32% 43% 39% 52% / 28% 21% 86% 72%;
+    top: -107px;
+    left: -91px;
+    clip-path: polygon(0 54%, 100% 39%, 99% 100%, 0% 100%);
+    transform: rotate(196deg);
+}
+.handle {
+    width: 80px;
+    height: 100px;
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 171px;
+    left: -32px;
+}
