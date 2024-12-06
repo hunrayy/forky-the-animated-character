@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
+    height: 0vh;
     background-color: rgb(95, 177, 255);
 }
 .forky{
@@ -133,4 +133,17 @@ body{
     position: absolute;
     top: 171px;
     left: -32px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(232, 232, 232);
+    text-decoration: underline;
+    transition: .3s;
 }
